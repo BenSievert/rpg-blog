@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-background text-gray-300">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+	<title>Tabletop RPG Blog</title>
+	<link rel="stylesheet" href="/styles.css">
+	%sveltekit.head%
+</head>
+<body class="font-body bg-parchment">
+<div id="svelte">
+	<header class="bg-surface shadow-glow-primary py-6">
+		<div class="container mx-auto text-center">
+			<h1 class="text-4xl font-header text-primary">Adventurer's Journal</h1>
+			<p class="text-secondary text-lg mt-2">Chronicling the world of tabletop RPGs</p>
+		</div>
+	</header>
+
+	<main class="container mx-auto py-10">
+		%sveltekit.body%
+	</main>
+
+	<footer class="bg-surface py-4 text-center mt-10">
+		<p class="text-gray-500">&copy; 2024 Adventurer's Journal. All Rights Reserved.</p>
+	</footer>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
