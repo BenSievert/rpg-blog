@@ -34,3 +34,4 @@ tailwind.config.ts
 # Other
 dist/
 coverage/
+.vercel
