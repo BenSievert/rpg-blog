@@ -27,9 +27,6 @@ yarn-error.log*
 # MacOS specific files
 .DS_Store
 
-# TailwindCSS generated files
-tailwind.config.js
-tailwind.config.ts
 
 # Other
 dist/
