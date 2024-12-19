@@ -8,10 +8,12 @@ export const load: PageServerLoad = async ({ params }) => {
 			  FROM articles
 			  WHERE id = ${params.slug}`
   )[0];
+  
   const converter = new showDown.Converter({
     noHeaderId: true,
     simpleLineBreaks: true,
   });
+
   const html = converter.makeHtml(content);
   return {
     title,
