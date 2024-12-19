@@ -8,6 +8,6 @@
 <svelte:head>
     <title>{title}</title>
 </svelte:head>
-<pre class="prose">
+<span class="prose">
 {@html html}
-</pre>
+</span>
