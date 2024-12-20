@@ -1,5 +1,6 @@
 <script lang="ts">
   import type {PageData} from './$types';
+  import {formatDate} from "../functions";
 
   let {data}: { data: PageData } = $props();
   const {articles} = data
@@ -23,10 +24,6 @@
 <ul>
     {#each articles as {id, title, date_created}}
         <li class="text-secondary hover:underline"><a
-                href="/articles/{id}">{title} - {new Intl.DateTimeFormat("en-US", {
-						year: "numeric",
-						month: "long",
-						day: "numeric"
-				}).format(new Date(date_created))}</a></li>
+                href="/articles/{id}">{title} - {formatDate(date_created)}</a></li>
     {/each}
 </ul>
