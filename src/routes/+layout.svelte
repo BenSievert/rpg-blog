@@ -14,7 +14,9 @@
         {@render children()}
     </main>
 
-    <footer class="bg-surface py-4 text-center mt-10">
-        <p class="text-gray-500">sievertbenjamin@gmail.com</p>
+    <footer class="bg-surface py-4 text-center mt-10 text-gray-500">
+        <p class="mb-1">Realm of Infinite Madness</p>
+        <p class="mb-1"><a class="hover:text-gray-400" href="mailto:sievertbenjamin@gmail.com">sievertbenjamin@gmail.com</a></p>
+        <p><a class="hover:text-gray-400" href="https://www.bensievert.dev">www.bensievert.dev</a></p>
     </footer>
 </div>

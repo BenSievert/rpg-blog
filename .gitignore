@@ -18,6 +18,10 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+#locally written articles
+src/article-uploader/*.md
+src/article-uploader/*.js
+
 # IDE specific files
 .vscode/
 .idea/
