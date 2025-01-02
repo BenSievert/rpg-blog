@@ -10,7 +10,7 @@
         </div>
     </header>
 
-    <main class="container mx-auto py-10 flex-1">
+    <main class="container mx-auto py-10 px-4 flex-1">
         {@render children()}
     </main>
 
