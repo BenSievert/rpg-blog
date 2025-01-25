@@ -6,7 +6,7 @@
     <header class="bg-surface shadow-glow-primary py-6">
         <div class="container mx-auto text-center">
             <h1 class="text-4xl font-header text-primary">Realm of Infinite Madness</h1>
-            <p class="text-secondary text-lg mt-2">My thoughts and resources on table top role playing games.</p>
+            <p class="text-secondary text-lg mt-2">My thoughts on everything.</p>
         </div>
     </header>
 
